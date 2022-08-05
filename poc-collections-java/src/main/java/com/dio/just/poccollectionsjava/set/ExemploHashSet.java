@@ -1,4 +1,4 @@
-package set;
+package com.dio.just.poccollectionsjava.set;
 
 import java.util.HashSet;
 import java.util.Iterator;
