@@ -22,6 +22,6 @@ public class Estudante implements Comparable<Estudante> {
     public String toString() { return nome + " - " + idade; }
 
     @Override
-    public int compareTo(Estudante o) { return this.getIdade() - o.getIdade(); }
+    public int compareTo(Estudante o) { return this.getIdade() - o.getIdade(); } // return -1, 0 ou 1
 
 }

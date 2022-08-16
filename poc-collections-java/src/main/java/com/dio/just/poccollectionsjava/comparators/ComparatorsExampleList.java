@@ -45,6 +45,11 @@ public class ComparatorsExampleList {
         System.out.println("--- Ordem natural dos números - idade (method reference) ---");
         System.out.println(estudantes);
 
+        estudantes.sort(Comparator.comparingInt(Estudante::getIdade).reversed());
+
+        System.out.println("--- ** Ordem reversa dos números - idade (method reference) ** ---");
+        System.out.println(estudantes);
+
         Collections.sort(estudantes);
 
         System.out.println("--- Ordem natural dos números - idade (interface Comparable) ---");
